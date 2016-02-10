@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminPaneli.master.cs" Inherits="WebApplicationAkorKupu.adminpanel.AdminPaneli" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="stil_yonetim.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="dis_alan">
+            <div id="banner">
+                YÖNETİM PANELİ
+            </div>
+            <div id="navigasyon">
+                <div id="adsoyad">Ad Soyad:Ramazan Güçlü</div>
+                <div id="görev">Görevi:Yönetici</div>
+            </div>
+            <div id="icerik_alani">
+                <div id="butonlar">
+                    <ul>
+                        <li><a href="Grupyonetimi.aspx">Grup Yönetimi</a></li>
+                        <li><a href="AdminYonetimi.aspx">Admin Yönetimi</a></li>
+                        <li><a href="SarkiSarkiciYonetimi.aspx">Şarkı-Şarkıcı Yönetimi</a></li>
+                        <li><a href="IcerikYonetimi.aspx">İçerik Yönetimi<asp:Label ID="lbicerik" runat="server" ForeColor="Red"></asp:Label></a></li>
+                        <li><a href="YorumYonetimi.aspx">Yorum Yönetimi<asp:Label ID="lblyorum" runat="server" ForeColor="Red"></asp:Label></a></li>
+                        <li><a href="MailYonetimi.aspx">Mail Yönetimi<asp:Label ID="lblmail" runat="server" ForeColor="Red"></asp:Label></a></li>
+                    </ul>
+                </div>
+                <div id="icerik">
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

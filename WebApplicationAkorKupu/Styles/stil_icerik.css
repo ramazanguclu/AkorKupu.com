@@ -1,0 +1,741 @@
+﻿.satir_1
+{
+    width: 130px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+}
+.satir_2
+{
+    width: 330px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+}
+.satir_3
+{
+    width: 200px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-bottom:10px;
+    padding-top:5px;
+   border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+    }
+ .satir_7
+{
+    width: 130px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+}
+.satir_8
+{
+    width: 330px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-bottom:10px;
+    padding-top:5px;
+    border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+    }
+.satir_9
+{
+    width: 200px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-bottom:10px;
+    padding-top:5px;
+ border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+    }   
+.satir_4
+{
+    width: 530px;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-bottom:10px;
+  border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+    }
+.satir_5
+{
+    width: 130px;
+    height: 570px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    float: left;
+    padding-left: 10px;
+    padding-bottom:10px;
+    padding-top: 30px;
+    border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+}
+.satir_6
+{
+    width: 200px;
+    height: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-bottom:10px;
+    padding-top:5px;
+    border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+    }
+    
+    .satir_10
+{
+    width: 530px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-bottom:10px;
+   border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+    }
+.satir_11
+{
+    width: 130px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    border-bottom-style: double;
+    border-bottom-width: thin;
+    border-bottom-color: #000000;
+}
+#GirisYap
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 280px;
+}
+.ilan_hata
+{
+    font-family: Arial, Helvetica, sans-serif
+    border-bottom-color: #3399FF;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+.water
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #808080;
+}
+.ilan2_baslik
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.ilan2_sol
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float:left;
+    width:150px;
+    height:20px;
+}
+.ilan2_sag
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float:left;
+    width:250px;
+    height:20px;
+    }
+.AyrOzellik_Baslik
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #0066FF;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.AyrOzellik
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.resim_baslik
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #0000FF;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:10px;
+}
+.resim_sola
+{
+    float: left;
+    padding-right: 100px;
+}
+.Resim_baslik_2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #009900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+}
+.res_fu
+{
+    padding-left:10px;
+    }
+.res_btn{padding-top: 10px;
+    padding-left:10px;}
+.resim_yuklenen
+{
+    padding-left:10px;
+    }
+.ilan_tamam
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom:270px;
+}
+.ilan_tamam_ad
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #0033CC;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+#ilanlar_sol
+{
+    width: 170px;
+    height: auto;
+    float:left;
+}
+#ilanlar_sag
+{    width: 800px;
+    height: auto;
+    float:left;
+    }
+.ilanlar_satir
+{
+    width: 790px;
+    height: 85px;
+    margin-top: 1px;
+    background-image: url('../images/bg_ilanlar2.jpg');
+}  
+.ilanlar_satir_baslik
+{
+    width: 790px;
+    height: 35px;
+    background-image: url('../images/bg_footer.jpg');
+    padding-top: 15px;
+}       
+.ilanlar_sayi
+{
+    float: left;
+    width: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #003399;
+    text-align: center;
+    font-weight: bold;
+    height: 55px;
+    padding-top: 30px;
+}    
+.ilanlar_resim
+{
+    float: left;
+    height: 82px;
+    width: 90px;
+    text-align: center;
+    padding-top: 3px;
+}
+.ilanlar_AltTur
+{
+    float: left;
+    height: 55px;
+    padding-top: 30px;
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #1E1E1E;
+    text-align: center;
+    font-weight: bold;
+}  
+.ilanlar_islem
+{
+        float:left;
+    height: 55px;
+    padding-top: 30px;
+    width:90px;
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #1E1E1E;
+    text-align:center;
+    }  
+.ilanlar_baslik
+{
+    float: left;
+    height: 55px;
+    padding-top: 30px;
+    width: 285px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0066FF;
+} 
+.ilanlar_baslik a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0066FF;
+    text-decoration:none;
+} 
+.ilanlar_fiyat
+{
+    float: left;
+    height: 55px;
+    padding-top: 30px;
+    width: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #CC0000;
+    text-align: center;
+} 
+.ilanlar_tarih
+{
+    float: left;
+    height: 55px;
+    padding-top: 30px;
+    width: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #666666;
+    text-align: center;
+}
+.ilanlar_ilce
+{
+           float:left;
+    height: 55px;
+    padding-top: 30px;
+    width:70px; 
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #1E1E1E;
+    text-align:center;
+    } 
+.ilanlar_sayi2
+{
+    float: left;
+    height: 30px;
+    width: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 12px;
+}    
+.ilanlar_resim2
+{
+    float: left;
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    height: 25px;
+}
+.ilanlar_AltTur2
+{
+    float:left;
+    padding-top: 5px;
+    height: 25px;
+    width:90px;
+        font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FBFBFB;
+    text-align:center;
+    font-size: 12px;
+    }  
+.ilanlar_islem2
+{
+        float:left;
+    padding-top: 5px;
+    height: 25px;
+    width:90px;
+        font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FBFBFB;
+    text-align:center;
+    font-size: 12px;
+    }  
+.ilanlar_baslik2
+{
+    float:left;
+    padding-top: 5px;
+    height: 25px;
+    width:285px;  
+        font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FBFBFB;
+    font-size: 12px;
+    } 
+.ilanlar_fiyat2
+{
+    float:left;
+    padding-top: 5px;
+    height: 25px;
+    width:70px;
+        font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FBFBFB;
+    text-align:center;
+    font-size: 12px;
+    } 
+.ilanlar_tarih2
+{
+       float:left;
+    height:30px;
+    width:70px; 
+        font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FBFBFB;
+    text-align:center;
+    font-size: 12px;
+    }
+.ilanlar_ilce2
+{
+    float: left;
+    padding-top: 5px;
+    height: 25px;
+    width: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FBFBFB;
+    text-align:center;
+    font-size: 12px;
+}    
+.ilanlar_sol_baslik
+{
+    width:130px;
+    height:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0066FF;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+}       
+.ilanlar_sol_ddl
+{
+    width: 130px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0000FF;
+    padding-top: 5px;
+}
+.ilanlar_sol_btn
+{
+    width: 130px;
+    height: 30px;
+    padding-top: 3px;
+}
+#ilanlar
+{width:970px;
+ height:auto;
+    }     
+#ilan_detay_ozellik
+{
+    width:230px;
+    height:540px;
+    float:left;
+    margin-left:10px;
+    }          
+#ilan_detay_kul    
+{
+    width:170px;
+    height:540px;
+    float:left;
+    margin-left:10px;
+    }
+.kul_baslik
+{
+    width: 170px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #5197FF;
+    padding-top: 5px;
+}    
+.ilan_kul_satir
+{
+    width: 170px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #333333;
+}
+.ilan_kul_buton
+{
+    width: 170px;
+    height: 25px;
+    padding-top: 5px;
+    }
+#ilan_detay_gozellik
+{
+    width: 960px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+    color: #111111;
+    margin-bottom: 50px;
+}
+#ilan_detay_gozellik p
+{
+    width: 970px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #111111;
+    text-align: center;
+    padding-top: 5px;
+}
+.ilan_coklu_ozellik
+{
+    width: 910px;
+    height:auto;
+    padding-left: 10px;
+    margin-left:50px;
+    }
+.ilan_coklu_ozellik p
+{
+    width: 900px;
+    margin-left:50px;
+    height:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #111111;
+    padding-top: 5px;
+    padding-left: 20px;
+    }
+.ilan_secenek
+{
+    width:auto;
+    height:25px;
+    margin-right:20px;
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #111111;
+    }    
+.ilan_detay_fiyat
+{
+    width: 230px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0066FF;
+    text-align:center;
+}    
+.ilan_detay_semt
+{
+    width: 230px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #111111;
+    padding-top: 3px;
+    text-align:center;
+    padding-bottom:10px;
+}
+.ilan_det_oz_sol
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    color: #111111;
+    float:left;
+    padding-left:5px;
+}
+.ilan_det_oz_sag
+{
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 120px;
+    height: 30px;
+    color: #111111;
+    float:left;
+    margin-left:5px;
+    }
+.mesaj_gonder_baslik
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #CC0000;
+    width: 650px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 50px;
+}
+.mesaj_gonder
+{
+    width: 680;
+    height: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}    
+.ilanlarim_baslik
+{
+    width: 700px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0066FF;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.ilanlarim_resim
+{
+    width: 80px;
+    height: 80px;
+    float:left;
+    padding-left: 5px;
+    padding-right: 25px;
+}
+.ilanlarim_tur
+{
+    width: 150px;
+    height: 50px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #252525;
+    font-weight: bold;
+}
+.ilanlarim_mahalle
+{
+    width: 150px;
+    height: 50px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+}
+.ilanlarim_fiyat
+{
+    width: 70px;
+    height: 50px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.ilanlarim_goruntu
+{
+    width: 40px;
+    height: 50px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0033CC;
+    font-weight: bold;
+}
+.ilanlarim_sil
+{
+     width: 40px;
+    height: 55px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 25px;
+    
+    }

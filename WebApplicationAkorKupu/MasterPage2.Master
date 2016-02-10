@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MasterPage2.master.cs" Inherits="WebApplicationAkorKupu.MasterPage2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div class="temizle"></div>
+    <div class="sol">&nbsp;</div>
+<div class="orta">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+<div class="sag">&nbsp;</div>
+<div class="temizle"></div>
+</asp:Content>

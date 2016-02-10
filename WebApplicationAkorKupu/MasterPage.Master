@@ -1,0 +1,223 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WebApplicationAkorKupu.MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Styles/sitilim.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/stil_icerik.css" rel="stylesheet" type="text/css" />
+    <title>Bir Küp Dolusu Müzik Paylaşım Platformu</title>
+    <link rel="shortcut icon" href="images/cube.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function MM_swapImgRestore() { //v3.0
+            var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+        }
+        function MM_preloadImages() { //v3.0
+            var d = document; if (d.images) {
+                if (!d.MM_p) d.MM_p = new Array();
+                var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                    if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+            }
+        }
+
+        function MM_findObj(n, d) { //v4.01
+            var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+                d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+            }
+            if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+            if (!x && d.getElementById) x = d.getElementById(n); return x;
+        }
+
+        function MM_swapImage() { //v3.0
+            var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2) ; i += 3)
+                if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+        }
+
+    </script>
+</head>
+<body onload="MM_preloadImages('../images/anasayfa/akor_icon_isima.png','../images/akor_icon_isima.png','../images/anasayfa/tab_isima.png','../images/anasayfa/soz_isima.png','../images/anasayfa/demo_isima.png','../images/anasayfa/haber_isima.png')">
+    <form id="form1" runat="server">
+        <div id="dis_alan">
+            <div id="banner">
+                <div class="banner_sol">
+                    <asp:Panel ID="pnlhakkımızda" runat="server" Visible="False">
+                        <div id="banner_butonlar">
+                            <ul>
+                                <li>
+                                    <asp:LinkButton ID="lbKulBilgi" runat="server" OnClick="lbKulBilgi_Click">Hakkımızda</asp:LinkButton></li>
+                                <li>
+                                    <asp:LinkButton ID="lbSarkilar" runat="server" OnClick="lbSarkilar_Click">İletişim</asp:LinkButton></li>
+
+                            </ul>
+                        </div>
+                        <!--profil_butonlar bitti-->
+                    </asp:Panel>
+                </div>
+                <div class="banner_orta">
+                    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                </div>
+                <div class="banner_sag">
+                    <a href="UyeOl.aspx">
+                        <img alt="" border="0" src="images/uye_ol.png" /></a>
+                </div>
+            </div>
+            <!--banner bitti-->
+
+            <div id="banner_1"></div>
+            <div id="banner_2"></div>
+            <div id="banner_3"></div>
+
+            <div id="kullanici_alan">
+                <div id="logo"></div>
+                <div id="esame">
+                    <a href="Default.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','images/akorkupu_isima.png',1)">
+                        <img alt="" src="images/akorkupu.png" width="123" height="114" border="0" id="Image7" /></a>
+                </div>
+                <!--esame bitti-->
+                <div id="kul_sag">
+
+                    <div class="temizle">
+                        <asp:Panel ID="pnlKulGiris" runat="server" Visible="False">
+                            <div id="kul_giris">
+                                <div class="kul_satir">
+                                    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #CC0000; text-align: center">
+                                        <asp:Label ID="lblGirisHata" runat="server"></asp:Label>
+                                    </div>
+                                </div>
+                                <div class="kul_satir">
+                                    <div class="kul_sutun1">
+                                        Email:
+                                    </div>
+                                    <div class="kul_sutun2">
+                                        <asp:TextBox ID="txtEmail" runat="server"
+                                            CssClass="textbox" ForeColor="White" Width="140px"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class="kul_satir">
+                                    <div class="kul_sutun1">
+                                        Şifre:
+                                    </div>
+                                    <div class="kul_sutun2">
+                                        <asp:TextBox ID="txtSifre" runat="server" CssClass="textbox" ForeColor="White"
+                                            TextMode="Password" Width="140px"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class="kul_satir">
+                                    <div class="kul_sutun3">
+                                        <asp:CheckBox ID="chckHatirla" runat="server" Text="Beni Hatırla" />
+                                    </div>
+                                </div>
+                                <div class="kul_satir">
+                                    <div class="kul_sutun2">
+                                        <asp:ImageButton ID="imgGiriş" runat="server" ImageUrl="~/images/giris.png"
+                                            Height="23px" Width="80px"
+                                            OnClick="imgGiriş_Click" />
+                                    </div>
+                                    <div style="padding-left: 170px">
+                                        <asp:LinkButton ID="lbUnuttum" runat="server" Font-Names="Arial"
+                                            Font-Size="9pt" OnClick="lbUnuttum_Click">Şifremi Unuttum</asp:LinkButton>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--kul_giris bitti-->
+                        </asp:Panel>
+                        <!--pnlKulGiris bitti-->
+                        <asp:Panel ID="pnlKulBilgi" runat="server" Visible="False">
+                            <div id="kul_bilgi">
+                                <div class="kul_satir_bilgi" style="color: #990000">
+                                    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #990000;">
+                                        Hoş Geldiniz&nbsp;&nbsp; 
+             <asp:Label ID="lblAdSoyad" runat="server"></asp:Label>&nbsp;&nbsp;&nbsp;
+                                    </div>
+                                </div>
+                                <div class="kul_satir"></div>
+                                <div class="kul_satir_bilgi">
+                                    <asp:LinkButton ID="lbProfilim" runat="server" OnClick="lbProfilim_Click">Profilim</asp:LinkButton>
+                                </div>
+                                <div class="kul_satir"></div>
+                                <div class="kul_satir_bilgi">
+                                    <asp:LinkButton ID="lbCikis" runat="server"
+                                        Font-Bold="True" Font-Names="Arial"
+                                        Font-Size="9pt" ForeColor="Red" OnClick="lbCikis_Click">Güvenli Çıkış</asp:LinkButton>
+                                </div>
+                            </div>
+                            <!--kul_bilgi bitti-->
+                        </asp:Panel>
+                        <!--pnlKulBilgi bitti-->
+
+                    </div>
+                    <!--temizle bitti-->
+                </div>
+                <!--kul_sag bitti-->
+                <div id="kul_orta">
+                    <a href="IcerikEkle.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','images/kup_isima2.png',1)">
+                        <img alt="" src="images/kup.png" width="123" height="114" border="0" id="Image6" /></a>
+                </div>
+                <div id="logo_2"></div>
+            </div>
+            <!--kullanici_alan bitti-->
+            <div class="temizle"></div>
+            <div class="banneralt_2"></div>
+            <div class="banneralt_1"></div>
+            <div class="banneralt_2"></div>
+            <div class="temizle"></div>
+            <div id="butonlar">
+                <div id="akorlar_buton">
+                    <div id="akorlar_icon">
+                        <div id="akor_icon">
+                            <a href="Akorlar.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','images/anasayfa/akor_icon_isima.png',1)">
+                                <img alt="" src="images/anasayfa/akor_icon.png" width="80" height="80" border="0" id="Image1" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="tablar_buton">
+                    <div id="tablar_icon">
+                        <div id="tab_icon">
+                            <a href="Tablar.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','images/anasayfa/tab_isima.png',1)">
+                                <img alt="" src="images/anasayfa/tab.png" width="80" height="80" border="0" id="Image2" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="sozler_buton">
+                    <div id="sozler_icon">
+                        <div id="soz_icon">
+                            <a href="Sozler.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','images/anasayfa/soz_isima.png',1)">
+                                <img alt="" src="images/anasayfa/soz.png" width="80" height="80" border="0" id="Image3" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="demolar_buton">
+                    <div id="demolar_icon">
+                        <div id="demo_icon">
+                            <a href="DemoListe.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images/anasayfa/demo_isima.png',1)">
+                                <img alt="" src="images/anasayfa/demo.png" width="80" height="80" border="0" id="Image4" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="haberler_buton">
+                    <div id="haberler_icon">
+                        <div id="haber_icon">
+                            <a href="HaberListe.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','images/anasayfa/haber_isima.png',1)">
+                                <img alt="" src="images/anasayfa/haber.png" width="80" height="80" border="0" id="Image5" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--butonlar bitti-->
+            <div class="temizle"></div>
+            <div id="buton_alti"></div>
+            <div class="temizle"></div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="temizle"></div>
+            <div id="footer">Tüm Hakları Saklıdır.</div>
+            <!--footer bitti-->
+        </div>
+        <!--dis_alan bitti-->
+    </form>
+</body>
+</html>

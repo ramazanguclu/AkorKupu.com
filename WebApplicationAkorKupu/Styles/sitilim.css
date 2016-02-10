@@ -1,0 +1,1452 @@
+@charset "utf-8";
+#dis_alan {
+	height: auto;
+	width: 970px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#banner{
+	background-image: url('../images/anasayfa/bg_banner.png');
+	height: 58px;
+	width: 970px;
+}
+#banner_2
+{
+    height: 10px;
+    width: 970px;
+    background-image: url('../images/anasayfa/bg_banner_1.png');
+}
+
+}
+#kullanici_alan {
+	background-color: #FFF;
+	height: 120px;
+	width: 970px;
+}
+
+
+
+#banner_1
+{
+    height: 2px;
+    width: 970px;
+    background-image: url('../images/anasayfa/bg_banner_2.png');
+}
+
+#banner_3
+{
+    height: 2px;
+    width: 970px;
+    background-image: url('../images/anasayfa/bg_banner_2.png');
+}
+
+
+#banner_4
+{
+    height: 5px;
+    width: 970px;
+    background-image: url('../images/anasayfa/bg_banner_1.png');
+}
+
+#logo {
+	background-image: url('../images/anasayfa/gitar.png');
+	height: 95px;
+	width: 213px;
+	float: left;
+}
+
+#esame
+{
+    width: 127px;
+    height: 128px;
+    float: left;
+}
+
+
+#isim {
+	float: left;
+	width: 80px;
+	height: 35px;
+	background-image: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 27px;
+	font-style: normal;
+	text-align: left;
+	color: #000;
+	vertical-align: middle;
+	padding-top: 5px;
+	font-weight: bold;
+}
+#isim_2 {
+	margin-top: 40px;
+	float: left;
+	width: 80px;
+	padding-left: 0px;
+	height: 30px;
+	color: #F00;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	clear: none;
+	margin-left: -30px;
+}
+
+#isim_3 {
+	width: 40px;
+	float: left;
+	height: 30px;
+	margin-top: 70px;
+	padding-left: -10px;
+	margin-left: -35px;
+}
+
+#kul_orta
+{
+    width: 127px;
+    height: 128px;
+    float: left;
+}
+
+
+#kul_sag {
+	float: left;
+	height: 120px;
+	width: 270px;
+}
+
+#kul_giris
+{
+    height: 115px;
+    width: 270px;
+    padding-bottom: 5px;
+}
+
+
+}
+
+#kul_bilgi
+{
+    height: 115px;
+    width: 270px;
+    padding-bottom: 5px;
+}
+
+.kul_satir
+{
+    width: 270px;
+    height: 19px;
+    padding-top: 2px;
+    float: left;
+}
+
+.kul_satir_bilgi
+{
+    width: 270px;
+    height: 19px;
+    padding-top: 2px;
+    float: left;
+    text-align: center;
+}
+
+.kul_sutun1
+{
+    width: 100px;
+    height: 18px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.kul_sutun2
+{
+    width: 170px;
+    height: 18px;
+    float:left;
+}
+
+.kul_sutun3
+{
+    width: 100px;
+    height: 18px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    color: #333333;
+}
+
+#logo_2
+{
+    height: 95px;
+    width: 213px;
+    float: left;
+    background-image: url('../images/anasayfa/gitar_simetri.png');
+}
+
+#butonlar {
+	background-image: url('../images/anasayfa/butonlar.png');
+	height: 150px;
+	width: 970px;
+}
+
+
+#akorlar_buton {
+	float: left;
+	height: 150px;
+	width: 195px;
+}
+#tablar_buton {
+	float: left;
+	height: 150px;
+	width: 180px;
+}
+#sozler_buton {
+	float: left;
+	height: 150px;
+	width: 180px;
+}
+#demolar_buton {
+	height: 150px;
+	width: 205px;
+	float: left;
+}
+#haberler_buton {
+	height: 150px;
+	width: 210px;
+	float: left;
+}
+#akorlar_icon {
+	height: 80px;
+	width: 195px;
+	margin-top: 50px;
+}
+#tablar_icon {
+	height: 80px;
+	width: 180px;
+	margin-top: 50px;
+}
+#sozler_icon {
+	height: 80px;
+	width: 180px;
+	margin-top: 50px;
+}
+#demolar_icon {
+	height: 80px;
+	width: 205px;
+	margin-top: 50px;
+}
+#haberler_icon {
+	height: 80px;
+	width: 210px;
+	margin-top: 50px;
+}
+#buton_alti
+{
+    background-color: #000;
+    height: 5px;
+    width: 970px;
+    margin-bottom: 5px;
+}
+#vitrin
+{
+    width: 970px;
+    height: auto;
+    float:right;
+}
+
+
+#footer
+{
+    height: 29px;
+    width: 970px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-image: url('../images/bg_footer.jpg');
+}
+
+#akor_icon {
+	height: 80px;
+	width: 80px;
+	margin-left: 60px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#tab_icon {
+	height: 80px;
+	width: 77px;
+	margin-left: 40px;
+}
+#soz_icon {
+	height: 80px;
+	width: 80px;
+	margin-left: 40px;
+}
+#demo_icon {
+	height: 80px;
+	width: 80px;
+	margin-left: 60px;
+}
+#haber_icon {
+	height: 80px;
+	width: 80px;
+	margin-left: 60px;
+}
+
+.sol
+{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+
+.orta
+{
+    width: 670px;
+    height: auto;
+    float: left;
+    background-image: url('../images/bg_login.png');
+    background-repeat: repeat-x;
+}
+
+.sag
+{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+.temizle {
+	clear: both;
+}
+.banner_sol
+{
+  height: 58px;  
+  float: left;
+  width: 410px;
+}
+
+.banner_orta
+{
+    height: 58px;
+    float: left;
+    width: 410px;
+    text-align: right;
+    
+}
+
+.banner_sag
+{
+    height: 53px;
+    float: left;
+    width: 150px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.uyeolbilgi
+{
+    width: 670px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.uyeol_satir
+{
+    width: 670px;
+    height:25px;
+    float:left;
+     }
+     .uyeol_sol
+{
+    height: auto;
+    width: 145px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0066FF;
+    font-weight: bold;
+    padding-left: 5px;
+}
+    .uyeol_orta
+{
+    height: auto;
+    width: 192px;
+    float: left;
+}
+     .uyeol_sag
+{
+    height: auto;
+    width: 320px;
+    float: left;
+}
+
+.hata
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #CC0000;
+}
+
+.textbox
+{
+    background-image: url('../images/bg_textbox.jpg');
+    background-repeat: repeat-x;
+}
+
+.sifremi_unuttum
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+#profil_butonlar
+{
+    width: 670px;
+    height: 25px;
+    background-image: url('../images/bg_buton_alani.jpg');
+    
+}
+#profil_butonlar ul
+{
+    list-style-type: none;
+}
+#profil_butonlar ul li
+{
+    float: left;
+}
+#profil_butonlar ul li a
+{
+    display: block;
+    width: auto;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0000FF;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    background-image: url('../images/bg_profil_buton.jpg');
+}
+#profil_butonlar ul li a:hover
+{
+    color: #3399FF;
+    text-decoration: none;
+}
+
+#profil_resim
+{
+    width: 100px;
+    height: 150px;
+    padding-left: 265px;
+    padding-bottom: 10px;
+    padding-top: 20px;  
+}
+
+#profil_adsoyad
+{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+    padding-bottom:30px;
+}
+
+.profil_satir
+{
+    padding-left: 200px;
+    padding-bottom: 30px;
+    height: 11px;
+}
+
+.profil_satir1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #1F1F1F;
+    float: left;
+    font-weight: bold;
+    width: 70px;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    border-bottom-color: #C0C0C0;
+}
+.profil_satir2
+{
+    border-bottom: thin dotted #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #1F1F1F;
+    float: left;
+    height: 18px;
+    margin-left: 10px;
+    width: 358px;
+     }
+     
+     #Giris_Yap
+{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #3366FF;
+    padding-top: 40px;
+    padding-bottom: 280px;
+}
+
+.haber_alani
+{
+    height: auto;
+    width: 670px;
+    float: right;
+}
+
+.reklam_alani
+{
+    width: 300px;
+    float: left;
+    height: auto;
+    position: absolute;
+}
+
+.haber_resim
+{
+    height: auto;
+    width: 670px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+    
+    .haber_metin
+{
+    height: auto;
+    width: 670px;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000000;
+    font-size: 15px;
+    font-style: normal;
+}
+    
+    .haber_baslik
+{
+    height: auto;
+    width: 670px;
+    float: left;
+    text-align: center;
+}
+
+.haber_aciklama
+    {
+    height: auto;
+    width: 670px;
+    float: left;
+        }
+        
+  .haber_tarih
+{
+    height: auto;
+    width: 670px;
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+      
+  .haber_tarih_bir
+{
+    height: auto;
+    width: 335px;
+    float: left;
+    background-color: #9999FF;
+}
+          
+    .haber_tarih_iki
+{
+    height: auto;
+    width: 335px;
+    float: left;
+    background-color: #CCFF66;
+    text-align: center;
+}
+
+.habersayfasi_alt
+{
+    width: 670px;
+    height: auto;
+    float: left;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.son_eklenen
+{
+    height: auto;
+    width: 970px;
+}
+
+.baslik_son_eklenen
+{
+    width: 970px;
+    height: 25px;
+    color: #993300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #CCFFFF;
+    margin-top: 5px;
+}
+
+.son_eklenen_satir
+{
+    width: 970px;
+    height: 15px;
+}
+
+
+.son_eklenen_sutun_a
+{
+    width: 210px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CC0000;
+    text-align: left;
+    background-color: #99FF99;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+.son_eklenen_sutun_b
+{
+    width: 230px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CC0000;
+    text-align: left;
+    background-color: #99FF99;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+.son_eklenen_sutun_c
+{
+    width: 130px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CC0000;
+    text-align: left;
+    background-color: #99FF99;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+.son_eklenen_sutun_d
+{
+    width: 60px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CC0000;
+    text-align: left;
+    background-color: #99FF99;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+
+.son_eklenen_sutun_iki_a
+{
+    width: 210px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    text-align: left;
+    background-color: #66FFFF;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.son_eklenen_sutun_iki_b
+{
+    width: 230px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    text-align: left;
+    background-color: #66FFFF;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.son_eklenen_sutun_iki_c
+{
+    width: 130px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    text-align: left;
+    background-color: #66FFFF;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.son_eklenen_sutun_iki_d
+{
+    width: 60px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    text-align: left;
+    background-color: #66FFFF;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.orta_alan
+{
+    width: 970px;
+    height: auto;
+    background-color: #CCFF66;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.orta_resim
+{
+    background-image: url('../images/anasayfa/music (2).jpg');
+    width: 850px;
+    height: 315px;
+    margin-left: 60px;
+}
+
+.arka_plan
+{
+    width: 970px;
+    height: auto;
+    background-color: #FFFF99;
+}
+
+.demo_son_eklenen
+{
+    height: auto;
+    width: 474px;
+    float: left;
+}
+
+.demo_son_eklenen_iki
+{
+    height: auto;
+    width: 474px;
+    float: right;
+}
+
+.demo_baslik
+{
+    width: 474px;
+    height: 25px;
+    color: #993300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #CCFFFF;
+    margin-top: 5px;
+}
+
+.demo_satir
+{
+    width: 474px;
+    height: 15px;
+}
+
+.demo_sutun
+{
+    width: 156px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CC0000;
+    text-align: left;
+    background-color: #99FF99;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.demo_sutun_iki
+{
+    width: 156px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    text-align: left;
+    background-color: #66FFFF;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.demo
+{
+    width: 970px;
+    height: auto;
+}
+
+.arama
+{
+    margin: 20px 25px 20px 25px;
+    width: 250px;
+    height: 280px;
+    background-image: url('../images/bg_arama_alani.jpg');
+    float: right;
+}
+
+.arama_baslik
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #990000;
+    width: 250px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.arama_satir
+{
+    width: 250px;
+    height: 20px;
+    text-align: center;
+}
+
+.son_uyeler
+{
+    margin: 20px 25px 20px 25px;
+    width: 250px;
+    height: auto;
+    float: left;
+    background-color: #99FF99;
+}
+
+.sonuye_satir
+{
+    width: 250px;
+    height: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #808080;
+    padding-left: 15px;
+}
+
+.icerik
+{
+    border: thin solid #009933;
+    width: 666px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: #99FF66;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.aciklama
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 670px;
+    height: 50px;
+}
+
+.harfler
+{
+    width: 666px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #CC9900;
+    float: left;
+}
+
+.harf
+{
+    margin: 5px;
+    border: thin solid #FFCC00;
+    background-color: #00FF00;
+    color: #FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.demoliste
+{
+    width: 670px;
+    height: auto;
+    text-align: center;
+}
+
+.akor_son_eklenen
+{
+    height: auto;
+    width: 474px;
+    margin-left: 98px;
+}
+
+.arama_alani
+{
+    width: 670px;
+    height: auto;
+}
+
+.akor_arama_alani
+{
+    margin: 20px;
+    height: auto;
+    width: 434px;
+    float: left;
+}
+
+.harf_alani
+{
+    height: auto;
+    width: 156px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.arama_label
+{
+    border: 3px solid #CC0000;
+    margin: 5px;
+    background-color: #00FF00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.haberliste
+{
+    width: 670px;
+    height: auto;
+    float: left;
+    background-color: #999966;
+}
+
+.haberliste_resim
+{
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    float: left;
+}
+
+.haberliste_yazi
+{
+    height: auto;
+    width: 450px;
+    margin: 5px;
+    float: left;
+}
+
+
+
+.haberliste_baslik
+{
+    width: 450px;
+    margin: 5px;
+    float: left;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    height: auto;
+    padding-top: 5px;
+}
+
+.haberliste_satir
+{
+    width: 450px;
+    margin: 5px;
+    float: left;
+    height: auto;
+    padding-top: 60px;
+}
+
+.haberlistesutun
+{
+    width: 225px;
+    height: 10px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    color: #003399;
+}
+
+.digericerikler_dis
+{
+    background-color: #0099FF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sarkilarim
+{
+    width: 670px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.akor_sonek
+{
+    margin: 20px;
+    height: auto;
+    width: 630px;
+    float: left;
+}
+
+.akor_sonek_baslik
+{
+    width: 630px;
+    height: 25px;
+    color: #0033CC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #6699FF;
+    margin-top: 5px;
+}
+
+.akor_son_satir
+{
+    width: 630px;
+    height: 15px;
+}
+.akor_son_sutun_baslik
+{
+    width: 198px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    text-align: left;
+    background-color: #6666FF;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.akor_son_sutun_iki_baslik
+{
+    width: 113px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    text-align: left;
+    background-color: #6666FF;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+.akor_son_sutun
+{
+    width: 198px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CC0000;
+    text-align: left;
+    background-color: #99FF99;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.akor_son_sutun_iki
+{
+    width: 113px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CC0000;
+    text-align: left;
+    background-color: #99FF99;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.akor_arama_alani
+{
+    margin: 20px;
+    height: auto;
+    width: 434px;
+    float: left;
+}
+
+
+.akor_arama_baslik
+{
+    width: 474px;
+    height: 25px;
+    color: #993300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #CCFFFF;
+    margin-top: 5px;
+}
+
+.akor_arama_satir
+{
+    width: 474px;
+    height: 15px;
+}
+
+.akor_arama_sutun
+{
+    width: 148px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CC0000;
+    text-align: left;
+    background-color: #99FF99;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+.akor_arama_sutun_iki
+{
+    width: 85px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #CC0000;
+    text-align: left;
+    background-color: #99FF99;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.akor_arama_sutun_baslik
+{
+    width: 148px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    text-align: left;
+    background-color: #999966;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+
+
+.akor_arama_sutun_iki_baslik
+{
+    width: 85px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    text-align: left;
+    background-color: #999966;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.banneralt_1
+{
+    height: 10px;
+    width: 970px;
+    background-image: url('../images/anasayfa/bg_banner_1.png');
+}
+
+.banneralt_2
+{
+    height: 2px;
+    width: 970px;
+    background-image: url('../images/anasayfa/bg_banner_2.png');
+}
+
+#yorum
+{
+    border-style: solid;
+    border-width: thin;
+    border-color: #009900;
+    width: 666px;
+    height: auto;
+    background-color: #FFFF99;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.yorum_satir1
+{
+    padding: 3px;
+    width: 660px;
+    height: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    overflow:hidden;
+    
+   
+}
+
+.yorum_satir
+{
+    padding: 3px;
+    width: 660px;
+    height: 30px;
+}
+
+.yorum_sutun1
+{
+    width: 330px;
+    height: 25px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    text-align: left;
+    background-color: #996600;
+    padding-top: 5px;
+}
+.yorum_sutun2
+{
+    width: 330px;
+    height: 25px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    color: #0000FF;
+    text-align: right;
+    background-color: #99CC00;
+    padding-top: 5px;
+}
+
+.yorum_ekle
+{
+    width: 666px;
+    height: auto;
+    border: thin solid #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#banner_butonlar
+{
+    width: 300px;
+    height: 25px;
+}
+#banner_butonlar ul
+{
+    list-style-type: none;
+}
+#banner_butonlar ul li
+{
+    float: left;
+}
+#banner_butonlar ul li a
+{
+    display: block;
+    width: 100px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0000FF;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    background-image: url('../images/bg_profil_buton.jpg');
+}
+#banner_butonlar ul li a:hover
+{
+    color: #3399FF;
+    text-decoration: none;
+}
+
+.sarkiciadi
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: #FF0000;
+    text-align: center;
+    width: 666px;
+    height: 20px;
+}
+
+.iletisim
+{
+    width: 650px;
+    height: auto;
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    color: #0000FF;
+}
+
+.iletisimsatir
+{
+    width: 325px;
+    height: 30px;
+    float: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #CC0000;
+    font-weight: bold;
+}
+
+.hakkýmýzda
+{
+    width: 650px;
+    height: auto;
+    float: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    font-style: italic;
+}
+   
+      
